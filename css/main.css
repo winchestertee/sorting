@@ -1,0 +1,116 @@
+:root {
+    font-size: 62.5%;
+    --button-hover-color: #499af7;
+    --button-active-background: rgba(182, 182, 49, 0.436);
+    --button-deactive-background: rgba(255, 255, 255, 0.199);
+}
+
+
+body {
+    background-color: rgb(69, 5, 73);
+}
+
+body p {
+    font-size: 3rem;
+    color: white;
+}
+
+
+
+
+
+
+
+.filters-section {
+    height: 20vh;
+    width: 40vw;
+    background-color: rgba(40, 39, 39, 0.953);
+    margin: 0 auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.filters-header {
+    flex-basis: 100%;
+    text-align: center; 
+}
+
+.filter-all p {
+    background-color: var(--button-active-background);
+}
+
+.filter-ntr p, .filter-cbt p, .filter-polish p {
+    background-color: var(--button-deactive-background);
+}
+
+.filter p {
+    border: black solid 0.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.filter p:hover {
+    color: var(--button-hover-color);
+}
+
+
+
+
+
+
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 40rem;
+    width: 90vw;
+    margin: 10vh auto;
+    background-color: rgba(44, 59, 53, 0.953);
+    justify-content: space-between;
+}
+
+.card {
+    display: inline;
+    width: 25rem;
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 3vw 3vw 4vw;
+    text-align: center;
+    padding-top: 40rem;
+}
+
+
+.card1 {
+    background-image: url(../images/card1.jpg);
+
+}
+
+.card2 {
+    background-image: url(../images/card2.jpg);
+
+}
+
+.card3 {
+    background-image: url(../images/card3.jpg);
+}
+
+.card4 {
+    background-image: url(../images/card4.jpg);
+}
+
+.card5 {
+    background-image: url(../images/card5.jpg);
+}
+
+.card6 {
+    background-image: url(../images/card6.jpg);
+}
+
+.card7 {
+    background-image: url(../images/card7.jpg);
+}
